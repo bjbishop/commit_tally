@@ -26,3 +26,7 @@ which produces output like:
        3 tally/2015/10/2015-10-06
       12 tally/2015/10/2015-10-07
 #+END_EXAMPLE
+
+* TODO's
+
+** TODO shell script has a path I use on my system
