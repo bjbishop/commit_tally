@@ -1,0 +1,28 @@
+* Git commit tally
+
+This is a [[http://pre-commit.com/][pre-commit]] hook that only add's a period <.> character to a
+date stamped file. This is to keep track of how many commits have been
+performed by day for a simple personal productivity metric.
+
+
+* Reporting
+
+With a shell command using `find` and `wc` to produce a report:
+
+#+BEGIN_SRC sh
+  find tally -type f -exec wc -c {} \\;
+#+END_SRC
+
+which produces output like:
+
+#+BEGIN_EXAMPLE
+       3 tally/2015/09/2015-09-25
+       8 tally/2015/09/2015-09-28
+      13 tally/2015/09/2015-09-29
+      10 tally/2015/09/2015-09-30
+       6 tally/2015/10/2015-10-01
+       7 tally/2015/10/2015-10-02
+      11 tally/2015/10/2015-10-05
+       3 tally/2015/10/2015-10-06
+      12 tally/2015/10/2015-10-07
+#+END_EXAMPLE
