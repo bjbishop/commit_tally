@@ -1,5 +1,5 @@
 - id: commit_tally
-  name: commit_tally
+  name: Tally Commit metrics
   entry: commit_tally.sh
   language: script
   files: \.*$
