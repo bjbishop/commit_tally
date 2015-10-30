@@ -28,5 +28,5 @@ which produces output like:
 #+END_EXAMPLE
 
 * TODO's
+  - shell script has a path I use on my system
 
-** TODO shell script has a path I use on my system
