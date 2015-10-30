@@ -1,0 +1,6 @@
+- id: commit_tally
+  name: commit_tally
+  entry: commit_tally.sh
+  language: script
+  files: *
+  
