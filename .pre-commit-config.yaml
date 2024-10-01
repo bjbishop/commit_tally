@@ -1,5 +1,7 @@
+---
+repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    sha: v1.3.0
+    rev: v4.6.0
     hooks:
     -   id: check-added-large-files
         args:
@@ -10,10 +12,10 @@
     -   id: check-json
     -   id: check-yaml
 -   repo: https://github.com/bjbishop/commit_tally
-    sha: 2bec21872b23ab60ef110ef2a36c5825b994f444
+    rev: 2aaad2f277c3a6076496ebbf6dd0fb0980b7d52c
     hooks:
     -   id: commit_tally
 -   repo: https://github.com/bjbishop/git-secrets
-    sha: 1ce858a23757126c3517b253be363e3390014a7c
+    rev: a6ddf8d74bd7baae8973143553685a10131b1689
     hooks:
     -   id: git-secrets
